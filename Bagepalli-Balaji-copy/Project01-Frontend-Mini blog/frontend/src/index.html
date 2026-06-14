@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1> Mini Blog</h1>
+
+        <div class="blog-form">
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Enter blog title">
+
+            <textarea
+                id="body"
+                placeholder="Write your blog post here...">
+            </textarea>
+
+            <button id="addBtn">
+                Publish Post
+            </button>
+
+        </div>
+        <hr>
+        <h2>All Posts</h2>
+
+        <div id="postsList"></div>
+
+        <div id="postDetail"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

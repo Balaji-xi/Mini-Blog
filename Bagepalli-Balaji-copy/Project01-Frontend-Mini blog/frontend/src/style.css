@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #6d6aa8;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-form {
+    background: rgb(238, 243, 243);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.blog-form input,
+.blog-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #aea8a8;
+    border-radius: 5px;
+    background: rgb(238, 243, 243);
+}
+
+.blog-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.blog-form button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-form button:hover {
+    background: #00d154;
+}
+
+hr {
+    margin: 25px 0;
+}
+
+.post {
+    background: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.post h3 {
+    cursor: pointer;
+    color: #0077ff;
+    margin-bottom: 8px;
+}
+
+.post h3:hover {
+    text-decoration: underline;
+}
+
+.post p {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.post button {
+    background: rgb(226, 6, 50);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post button:hover {
+    background: darkred;
+}
+
+#postDetail {
+    margin-top: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#postDetail h2 {
+    margin-bottom: 10px;
+}
+
+#postDetail small {
+    color: gray;
+}
+
+#postDetail p {
+    margin-top: 15px;
+    line-height: 1.6;
+}
